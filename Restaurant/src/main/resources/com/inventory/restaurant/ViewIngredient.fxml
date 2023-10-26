@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.inventory.restaurant.ViewIngredient">
+   <children>
+      <AnchorPane fx:id="ap" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #FFF8DC;">
+         <children>
+            <ChoiceBox fx:id="cb" layoutX="50.0" layoutY="37.0" prefWidth="150.0" style="-fx-background-color: red;" />
+            <ListView fx:id="Listview" layoutX="50.0" layoutY="77.0" prefHeight="200.0" prefWidth="150.0" />
+            <VBox layoutX="303.0" layoutY="19.0" prefHeight="266.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" onMouseClicked="#deleteIngredient" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="180.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../../../pictures/buttons/delete.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="name" contentDisplay="CENTER" prefHeight="29.0" prefWidth="215.0">
+                     <font>
+                        <Font name="Segoe UI" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="stock" alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="207.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="description" alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="207.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+sku,Name,category,brand,quantity,unit,Description
+MTMT-6006,Meat,MEAT,No Brand,5000,g,Meat
+BECA-1103,Cola,BEVERAGE,CocaCola,20,bottle,Cola
+BEWR-4085,Water,BEVERAGE,No Brand,20000,ml,Basic water
+CTOL-4543,Olive Oil,CONDIMENT,,30000,ml,Olive oil
+PAPA-8378,Pasta,PASTA,,20000,g,Pasta
+SEMO-7684,Mayo,SAUCE,,5000,g,Mayo
+SEKP-1464,Ketchup,SAUCE,,5000,g,Ketchup
+VSTO-4475,Tomato,VEGETABLES,,5000,g,Tomato for sauce
+FTBA-1571,Banana,FRUIT,,5000,g,Banana
+FTOE-8177,Orange,FRUIT,,5000,g,Orange
+VSLE-3263,Lettuce,VEGETABLES,,5000,g,Lettuce
+BEPI-6107,Pepsi,BEVERAGE,Pepsi,10,bottle,Pepsi
+FHFH-5027,Fish,FISH,,10000,g,Fish
+FTAE-7077,Apple,FRUIT,,10000,g,Apple
+CTST-6821,Salt,CONDIMENT,,9996,g,Salt
+VSGE-4161,Garlic Clove,VEGETABLES,noone,1000,g,garlic
+RERE-0581,Rice,RICE,,11000,g,Rice
+TTTT-0360,T-shirt,TSHIRT,,10000,piece,T-shirt
+VSTU-6163,Tofu,VEGETABLES,noone,10000,g,vegetable protein
+CTKI-2707,Katsuobushi,CONDIMENT,noone,1000,g,Flakes
